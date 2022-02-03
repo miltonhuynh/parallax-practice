@@ -1,0 +1,34 @@
+#city {
+    background: url(../city.jpg);
+    background-size: 100% 100%;
+    border: 2px solid red;
+    height: 90vh;
+}
+
+#canyon {
+    background: url(../canyon.jfif);
+    background-size: 100% 100%;
+    border: 2px solid red;
+    height: 90vh;
+}
+
+#halfdome {
+    background: url(../halfdome.png);
+    background-size: 100% 100%;
+    border: 2px solid red;
+    height: 90vh;
+}
+
+#fire {
+    background: url(../fire.jpg);
+    background-size: 100% 100%;
+    border: 2px solid red;
+    height: 90vh;
+}
+
+#beach {
+    background: url(../beach.jpg);
+    background-size: 100% 100%;
+    border: 2px solid red;
+    height: 90vh;
+}
