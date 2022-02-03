@@ -1,34 +1,44 @@
 #city {
     background: url(../city.jpg);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #canyon {
     background: url(../canyon.jfif);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #halfdome {
     background: url(../halfdome.png);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #fire {
     background: url(../fire.jpg);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #beach {
     background: url(../beach.jpg);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
