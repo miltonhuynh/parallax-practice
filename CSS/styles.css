@@ -1,3 +1,19 @@
+#links {
+    font-size: 20px;
+}
+
+
+#brand {
+    background-color: black;
+    opacity: 0.1;
+    font-size: 25px;
+    color: black;
+}
+
+#brandtext {
+    color: black;
+}
+
 #city {
     background: url(../city.jpg);
     min-height: 500px;
@@ -7,6 +23,16 @@
     background-size: cover;
 }
 
+#citybox {
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    opacity: 0.75;
+    font-size: 80px;
+    position: absolute;
+    bottom: 50vh;
+    left: 55vh;
+}
+
 #canyon {
     background: url(../canyon.jfif);
     min-height: 500px;
@@ -14,6 +40,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #halfdome {
@@ -41,4 +68,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.textbox {
+    background-color: black;
+    opacity: 0.5;
+    position: relative;
+    top: 30vh;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
