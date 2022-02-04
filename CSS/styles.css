@@ -1,16 +1,13 @@
 #links {
-    font-size: 20px;
+    font-size: 25px;
+    background-color: black;
+    opacity: 0.5;
 }
-
 
 #brand {
     background-color: black;
-    opacity: 0.1;
+    opacity: 0.5;
     font-size: 25px;
-    color: black;
-}
-
-#brandtext {
     color: black;
 }
 
@@ -74,7 +71,17 @@
     background-color: black;
     opacity: 0.5;
     position: relative;
-    top: 30vh;
+    top: 20vh;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    padding: 3vh;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7F50;
+    height: 40vh;
 }
