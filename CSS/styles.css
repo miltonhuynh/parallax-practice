@@ -1,14 +1,21 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 #links {
     font-size: 25px;
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 #brand {
-    background-color: black;
-    opacity: 0.5;
     font-size: 25px;
     color: black;
+    opacity: 0.5;
 }
 
 #city {
@@ -25,9 +32,8 @@
     color: white;
     opacity: 0.75;
     font-size: 80px;
-    position: absolute;
-    bottom: 50vh;
-    left: 55vh;
+    position: relative;
+    top: 25vh;
 }
 
 #canyon {
@@ -84,4 +90,35 @@
     align-items: center;
     background-color: #FF7F50;
     height: 40vh;
+}
+
+.firstnext {
+    position: relative;
+    color: white;
+    left: 100vh;
+    top: 50vh;
+    opacity: 0.6;
+}
+
+.next {
+    position: relative;
+    color: white;
+    left: 100vh;
+    top: 25vh;
+    opacity: 0.6;
+}
+
+.buttons {
+    border: 1px solid white;
+    color: white;
+}
+
+.buttons:hover {
+    border: 1.5px solid white;
+    color: white !important;    
+    font-size: 1.02rem;
+}
+
+.social:hover {
+    font-size: 3.5rem;  
 }
