@@ -6,6 +6,11 @@ html,body {
     overflow-x: hidden; 
 }
 
+.navbar {
+    position: absolute;
+    width: 99%;
+}
+
 #links {
     font-size: 25px;
     background-color: black;
