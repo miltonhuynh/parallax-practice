@@ -1,34 +1,124 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#links {
+    font-size: 25px;
+    background-color: black;
+    opacity: 0.4;
+}
+
+#brand {
+    font-size: 25px;
+    color: black;
+    opacity: 0.5;
+}
+
 #city {
     background: url(../city.jpg);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#citybox {
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    opacity: 0.75;
+    font-size: 80px;
+    position: relative;
+    top: 25vh;
 }
 
 #canyon {
     background: url(../canyon.jfif);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #halfdome {
     background: url(../halfdome.png);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #fire {
     background: url(../fire.jpg);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #beach {
     background: url(../beach.jpg);
-    background-size: 100% 100%;
-    border: 2px solid red;
-    height: 90vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textbox {
+    background-color: black;
+    opacity: 0.5;
+    position: relative;
+    top: 20vh;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 3vh;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7F50;
+    height: 40vh;
+}
+
+.firstnext {
+    position: relative;
+    color: white;
+    left: 100vh;
+    top: 50vh;
+    opacity: 0.6;
+}
+
+.next {
+    position: relative;
+    color: white;
+    left: 100vh;
+    top: 25vh;
+    opacity: 0.6;
+}
+
+.buttons {
+    border: 1px solid white;
+    color: white;
+}
+
+.buttons:hover {
+    border: 1.5px solid white;
+    color: white !important;    
+    font-size: 1.02rem;
+}
+
+.social:hover {
+    font-size: 3.5rem;  
 }
