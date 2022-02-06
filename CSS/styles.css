@@ -9,12 +9,11 @@ html,body {
 .navbar {
     position: absolute;
     width: 99%;
+    background: rgba(0,0,0,0.1);
 }
 
 #links {
     font-size: 25px;
-    background-color: black;
-    opacity: 0.4;
 }
 
 #brand {
