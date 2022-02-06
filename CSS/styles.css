@@ -42,7 +42,7 @@ html,body {
 
 #canyon {
     background: url(../canyon.jfif);
-    min-height: 500px;
+    min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -52,7 +52,7 @@ html,body {
 
 #halfdome {
     background: url(../halfdome.png);
-    min-height: 500px;
+    min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ html,body {
 
 #fire {
     background: url(../fire.jpg);
-    min-height: 500px;
+    min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ html,body {
 
 #beach {
     background: url(../beach.jpg);
-    min-height: 500px;
+    min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -97,19 +97,15 @@ html,body {
 }
 
 .firstnext {
-    position: relative;
     color: white;
-    left: 100vh;
-    top: 50vh;
+    text-align: center;
     opacity: 0.6;
 }
 
 .next {
-    position: relative;
     color: white;
-    left: 100vh;
-    top: 25vh;
     opacity: 0.6;
+    text-align: center;
 }
 
 .buttons {
