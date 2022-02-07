@@ -9,19 +9,23 @@ html,body {
 .navbar {
     position: absolute;
     width: 100%;
-    background: rgba(255, 255, 255, 1);
+    background: rgb(111, 216, 252);
+    z-index: 9999;
 }
 
 #links {
-    font-size: 25px;
+    font-size: 22px;
     font-family: Papyrus;
     text-align: end;
 }
 
+.nav-item {
+    color:white;
+}
+
 #brand {
-    font-size: 30px;
-    color: black;
-    opacity: 0.5;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
     font-family: Papyrus;
 }
 
