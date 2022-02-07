@@ -8,18 +8,21 @@ html,body {
 
 .navbar {
     position: absolute;
-    width: 99%;
-    background: rgba(0,0,0,0.1);
+    width: 100%;
+    background: rgba(255, 255, 255, 1);
 }
 
 #links {
     font-size: 25px;
+    font-family: Papyrus;
+    text-align: end;
 }
 
 #brand {
-    font-size: 25px;
+    font-size: 30px;
     color: black;
     opacity: 0.5;
+    font-family: Papyrus;
 }
 
 #city {
@@ -124,5 +127,5 @@ html,body {
 }
 
 .social:hover {
-    font-size: 3.5rem;  
+    font-size: 2.5rem;  
 }
