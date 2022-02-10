@@ -3,19 +3,21 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+ 
 }
 
 .navbar {
     position: absolute;
     width: 100%;
-    background: rgb(111, 216, 252);
-    z-index: 9999;
+    background: rgb(111, 216, 252,0.5);
+    z-index: 9999;  
 }
 
 #links {
     font-size: 22px;
-    font-family: Papyrus;
+    font-family: Monaco;
     text-align: end;
 }
 
@@ -24,7 +26,7 @@ html,body {
 }
 
 #brand {
-    font-size: 32px;
+    font-size: 25px;
     color: rgb(255, 255, 255);
     font-family: Papyrus;
 }
