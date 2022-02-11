@@ -32,7 +32,7 @@ html,body {
 }
 
 #city {
-    background: url(../city.jpg);
+    background: url(city.jpg);
     min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
@@ -50,7 +50,7 @@ html,body {
 }
 
 #canyon {
-    background: url(../canyon.jfif);
+    background: url(canyon.jfif);
     min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
@@ -60,7 +60,7 @@ html,body {
 }
 
 #halfdome {
-    background: url(../halfdome.png);
+    background: url(halfdome.png);
     min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
@@ -69,7 +69,7 @@ html,body {
 }
 
 #fire {
-    background: url(../fire.jpg);
+    background: url(fire.jpg);
     min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
@@ -78,7 +78,7 @@ html,body {
 }
 
 #beach {
-    background: url(../beach.jpg);
+    background: url(beach.jpg);
     min-height: 80vh;
     background-attachment: fixed;
     background-position: center;
