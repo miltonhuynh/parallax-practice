@@ -9,7 +9,7 @@ html,body {
 .navbar {
     position: absolute;
     width: 100%;
-    background: rgb(111, 216, 252);
+    background: rgb(111, 216, 252,.3 );
     z-index: 9999;
 }
 
